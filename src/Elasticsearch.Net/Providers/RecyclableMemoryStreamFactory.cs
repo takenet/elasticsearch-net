@@ -9,8 +9,18 @@ namespace Elasticsearch.Net
 	{
 		private readonly RecyclableMemoryStreamManager _manager;
 
-		public RecyclableMemoryStreamFactory() =>
-			_manager = new RecyclableMemoryStreamManager { AggressiveBufferReturn = true };
+		public RecyclableMemoryStreamFactory()
+		{
+			const int blockSize = 1024;
+			const int largeBufferMultiple = 1024 * 1024;
+			const int maxBufferSize = 16 * largeBufferMultiple;
+			_manager = new RecyclableMemoryStreamManager(blockSize, largeBufferMultiple, maxBufferSize)
+			{
+				AggressiveBufferReturn = true,
+				MaximumFreeLargePoolBytes = maxBufferSize * 4,
+				MaximumFreeSmallPoolBytes = 100 * blockSize
+			};
+		}
 
 		public MemoryStream Create() => _manager.GetStream();
 
