@@ -4,7 +4,7 @@
 		<id>Take.Elasticsearch.Net</id>
 		<version>$version$</version>
 		<title>Unofficial (by Take) Elasticsearch.Net - Elasticsearch .NET low level client</title>
-		<authors>Elastic and contributors</authors>
+		<authors>Take, Elastic and contributors</authors>
 		<owners>takenet</owners>
 		<license type="file">license.txt</license>
 		<projectUrl>https://github.com/takenet/elasticsearch-net</projectUrl>

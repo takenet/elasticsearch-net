@@ -4,7 +4,7 @@
 		<id>Take.NEST.JsonNetSerializer</id>
 		<version>$version$</version>
 		<title>Unofficial (by Take) NEST.JsonNetSerializer - Elasticsearch .NET custom Json.NET serializer</title>
-		<authors>Elastic and contributors</authors>
+		<authors>Take, Elastic and contributors</authors>
 		<owners>takenet</owners>
 		<license type="file">license.txt</license>
 		<projectUrl>https://github.com/takenet/elasticsearch-net</projectUrl>
