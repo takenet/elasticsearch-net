@@ -4,6 +4,7 @@
 		<id>Take.NEST</id>
 		<version>$version$</version>
 		<title>Unofficial (by Take) NEST - Elasticsearch .NET high level client</title>
+		<authors>Elastic and contributors</authors>
 		<owners>takenet</owners>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<license type="file">license.txt</license>
