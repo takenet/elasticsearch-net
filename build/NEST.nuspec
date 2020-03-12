@@ -4,17 +4,12 @@
 		<id>Take.NEST</id>
 		<version>$version$</version>
 		<title>Unofficial (by Take) NEST - Elasticsearch .NET high level client</title>
-		<authors>Elastic and contributors</authors>
-		<owners>Take</owners>
-		<copyright>2014-$year$ Elasticsearch BV</copyright>
+		<owners>takenet</owners>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<license type="file">license.txt</license>
 		<projectUrl>https://github.com/takenet/elasticsearch-net</projectUrl>
-		<iconUrl>https://raw.githubusercontent.com/takenet/elasticsearch-net/master/build/nuget-icon.png</iconUrl>
-		<icon>images\nuget-icon.png</icon>
 		<description>Unofficial (by Take) strongly typed interface to Elasticsearch. Fluent and classic object initializer mappings of requests and responses. Uses and exposes Elasticsearch.Net</description>
 		<summary>Unofficial (by Take) strongly typed interface to Elasticsearch. Fluent and classic object initializer mappings of requests and responses. Uses and exposes Elasticsearch.Net</summary>
-		<releaseNotes>https://github.com/takenet/elasticsearch-net/releases/tag/$version$</releaseNotes>
 		<tags>elasticsearch,elastic,search,lucene,nest</tags>
 		<repository type="git" url="https://github.com/takenet/elasticsearch-net.git" branch="$branch$" commit="$commit$" />
 		<dependencies>

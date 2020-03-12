@@ -4,17 +4,12 @@
 		<id>Take.Elasticsearch.Net</id>
 		<version>$version$</version>
 		<title>Unofficial (by Take) Elasticsearch.Net - Elasticsearch .NET low level client</title>
-		<authors>Elastic and contributors</authors>
-		<owners>Take</owners>
+		<owners>takenet</owners>
 		<license type="file">license.txt</license>
 		<projectUrl>https://github.com/takenet/elasticsearch-net</projectUrl>
-		<iconUrl>https://raw.githubusercontent.com/takenet/elasticsearch-net/master/build/nuget-icon.png</iconUrl>
-		<icon>images\nuget-icon.png</icon>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<description>Elasticsearch.Net</description>
 		<summary>Exposes all the elasticsearch API endpoints but leaves you in control of building the request and response bodies. Comes with built in cluster failover/connection pooling support.</summary>
-		<releaseNotes>See https://github.com/takenet/elasticsearch-net/releases/tag/$version$</releaseNotes>
-		<copyright>2014-$year$ Elasticsearch BV</copyright>
 		<tags>elasticsearch,elastic,search,lucene,nest</tags>
 		<repository type="git" url="https://github.com/takenet/elasticsearch-net.git" branch="$branch$" commit="$commit$" />
 		<dependencies>
