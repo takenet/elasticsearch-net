@@ -15,11 +15,11 @@
 		<repository type="git" url="https://github.com/takenet/elasticsearch-net.git" branch="$branch$" commit="$commit$" />
 		<dependencies>
 			<group targetFramework="net461">
-				<dependency id="NEST" version="[$version$, $nextMajorVersion$)" />
+				<dependency id="Take.NEST" version="[$version$, 7.0.0)" />
 				<dependency id="Newtonsoft.Json" version="$jsonDotNetCurrentVersion$" />
 			</group>
 			<group targetFramework="netstandard2.0">
-				<dependency id="NEST" version="[$version$, $nextMajorVersion$)" />
+				<dependency id="Take.NEST" version="[$version$, 7.0.0)" />
 				<dependency id="Newtonsoft.Json" version="$jsonDotNetCurrentVersion$" />
 			</group>
 		</dependencies>
