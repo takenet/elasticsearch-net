@@ -26,10 +26,21 @@
   <ItemGroup>
     <Content Include="..\..\build.sh"><Link>build.sh</Link></Content>
     <Content Include="..\..\build.bat"><Link>build.bat</Link></Content>
+    <Content Include="..\..\appveyor.yml"><Link>appveyor.yml</Link></Content>
+    <Content Include="..\..\azure-pipelines.yml"><Link>azure-pipelines.yml</Link></Content>
+    <Content Include="..\..\.github\workflows\auto-label.yml">
+      <Link>auto-label.yml</Link>
+    </Content>
+    <Content Include="..\..\.github\workflows\backport.yml">
+      <Link>backport.yml</Link>
+    </Content>
+    <Content Include="..\..\.github\auto-label.json">
+      <Link>auto-label.json</Link>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Bullseye" Version="3.0.0" />
-    <PackageReference Include="Elastic.Managed" Version="0.1.0-ci20190927T121631" />
+    <PackageReference Include="Elastic.Managed" Version="0.1.0-ci20200306T203119" />
     <PackageReference Include="Fake.Core.Environment" Version="5.15.0" />
     <PackageReference Include="Fake.Core.SemVer" Version="5.15.0" />
     <PackageReference Include="Fake.IO.FileSystem" Version="5.15.0" />
